@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+body{
+
+    background: #2e9ce6;
+    
+    font-family: 'Slabo 27px', serif;
+    color: #fff;
+    height:100%;
+
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(50, 50, 200);
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+   
+    
+}

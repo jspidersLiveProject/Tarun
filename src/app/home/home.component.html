@@ -1,0 +1,21 @@
+<div class="home">
+  <form>
+    UserName:
+    <span>
+      <input type="text" name="UserName" [(ngModel)]="store">
+    </span>
+    <br>
+    <br>
+    <br> Password:
+    <span>
+      <input type="password" name="password" >
+    </span>
+    <br>
+    <br>
+    <br>
+    <input type="submit" [value]=btntext (click)="clicked()">
+  </form>
+  <div >
+    {{user}}
+  </div>
+</div>
